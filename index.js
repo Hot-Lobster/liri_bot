@@ -5,9 +5,6 @@ var bandsInTown = require("./bandsInTown")
 var act = process.argv[2]
 var term = process.argv.slice(3).join(" ")
 
-var song = new Spotify()
-var 
-
 switch(act){
   case "concert-this":
       showConcerts();

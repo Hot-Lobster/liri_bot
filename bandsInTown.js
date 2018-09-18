@@ -22,3 +22,5 @@ function showConcerts(){
       }
   });
 }
+
+module.exports=showConcerts;

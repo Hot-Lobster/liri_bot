@@ -1,7 +1,7 @@
 var request = require('request')
 var fs = require('fs')
-
-
+// 5c67338b8066417d819807b93311738f
+// 227a653cc6274459a15120fdf9655f9d
 function spotifySong(song){
   spotify.search({ type: 'track', query: song}, function(error, data){
       if (!error){
@@ -31,4 +31,4 @@ function spotifySong(song){
 }
 
 
-module.exports = spotify;
+module.exports = spotifySong;

@@ -44,4 +44,4 @@ function omdbData(movie){
   });
 }
 
-module.exports = ombd;
+module.exports = omdbData;

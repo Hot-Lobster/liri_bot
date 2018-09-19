@@ -14,7 +14,7 @@ function omdbData(movie){
           console.log(`IMbD Rating: ${body.imdbRating}`);
           console.log(`Country: ${body.Country}`);
           console.log(`Language: ${body.Language}`);
-          console.log(`Plot: ${body.Plot}`);
+          console.log(`Plot: ${body.Plot}`); 
           console.log(`Actors: ${body.Actors}`);
           console.log(`RT Rating: ${body.tomatoRating}`);
           console.log(`RT URL: ${body.tomatoURL}`);

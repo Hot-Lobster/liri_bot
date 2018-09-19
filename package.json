@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/olsoa4/liri_bot#readme",
   "dependencies": {
+    "node-spotify-api": "^1.0.7",
     "request": "^2.88.0"
   }
 }

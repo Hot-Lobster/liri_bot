@@ -1,6 +1,6 @@
 var spotify = require("./spotify")
-var ombd = require("./ombd")
-var bandsInTown = require("./bandsInTown")
+var omdbData = require("./ombd")
+var showConcerts = require("./bandsInTown")
 
 var act = process.argv[2]
 var term = process.argv.slice(3).join(" ")
